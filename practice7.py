@@ -8,7 +8,7 @@ import matplotlib.pylab as plt
 # print(y)
 
 
-def step_function(x):
+def step_function(x):  # 계단 함수 입니당
     return np.array(x > 0, dtype=int)
 
 
